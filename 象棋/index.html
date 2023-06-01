@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            flex-direction: row;
+            gap: 20px 20px;
+        }
+
+
+
+        .out {
+            width: 950px;
+            height: 850px;
+            border: 2px solid #000;
+            /* position: absolute; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 10px 0;
+            box-sizing: border-box;
+        }
+
+        .row {
+            width: 695px;
+            height: 60px;
+            /* background-color: #ffa; */
+            /* opacity: 0.7; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: 標楷體;
+            font-size: 35px;
+            font-weight: bolder;
+
+        }
+
+        .cir {
+            width: 60px;
+            height: 60px;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .row:nth-child(3),
+        .row:nth-child(8) {
+            width: 530px;
+        }
+
+
+
+        .in {
+            width: 640x;
+            height: 720px;
+            border: 2px solid #000;
+            position: absolute;
+            z-index: -1;
+
+        }
+
+        .top {
+            display: flex;
+            flex-wrap: wrap;
+            width: 640px;
+            height: 320px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            width: 80px;
+            height: 80px;
+            border: 1px solid #000;
+        }
+
+        .center {
+            width: 640px;
+            height: 80px;
+
+        }
+
+        .box2 {
+            box-sizing: border-box;
+            width: 640px;
+            height: 80px;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 標楷體;
+            font-size: 40px;
+        }
+
+        .bottom {
+            display: flex;
+            flex-wrap: wrap;
+            width: 640px;
+            height: 320px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <span style="writing-mode: vertical-lr; font-size: 40px; font-family: 標楷體;">圖畫裡，龍不吟，虎不嘯，小小書僮可笑可笑</span>
+
+    <div class="out">
+        <div class="row">
+            <div class="cir">車</div>
+            <div class="cir">馬</div>
+            <div class="cir">象</div>
+            <div class="cir">士</div>
+            <div class="cir">將</div>
+            <div class="cir">士</div>
+            <div class="cir">象</div>
+            <div class="cir">馬</div>
+            <div class="cir">車</div>
+        </div>
+        <div class="row"></div>
+        <div class="row">
+            <div class="cir">包</div>
+            <div class="cir">包</div>
+        </div>
+        <div class="row">
+            <div class="cir">卒</div>
+            <div class="cir">卒</div>
+            <div class="cir">卒</div>
+            <div class="cir">卒</div>
+            <div class="cir">卒</div>
+        </div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row">
+            <div class="cir red">兵</div>
+            <div class="cir red">兵</div>
+            <div class="cir red">兵</div>
+            <div class="cir red">兵</div>
+            <div class="cir red">兵</div>
+        </div>
+        <div class="row red">
+            <div class="cir">炮</div>
+            <div class="cir">炮</div>
+        </div>
+        <div class="row"></div>
+        <div class="row red">
+            <div class="cir">俥</div>
+            <div class="cir">傌</div>
+            <div class="cir">相</div>
+            <div class="cir">仕</div>
+            <div class="cir">帥</div>
+            <div class="cir">仕</div>
+            <div class="cir">相</div>
+            <div class="cir">傌</div>
+            <div class="cir">俥</div>
+        </div>
+    </div>
+    <div class="in">
+        <div class="top">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"
+                style="background: linear-gradient(45deg, transparent 49%, #000 49%, #000 51%, transparent 51%);"></div>
+            <div class="box"
+                style="background: linear-gradient(-45deg, transparent 49%, #000 49%, #000 51%, transparent 51%);">
+            </div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"
+                style="background: linear-gradient(-45deg, transparent 49%, #000 49%, #000 51%, transparent 51%);">
+            </div>
+            <div class="box"
+                style="background: linear-gradient(45deg, transparent 49%, #000 49%, #000 51%, transparent 51%);"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="center">
+            <div class="box2">
+                <span>楚河</span>
+                <span>漢界</span>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"
+                style="background: linear-gradient(45deg, transparent 49%, #000 49%, #000 51%, transparent 51%);"></div>
+            <div class="box"
+                style="background: linear-gradient(-45deg, transparent 49%, #000 49%, #000 51%, transparent 51%);">
+            </div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"
+                style="background: linear-gradient(-45deg, transparent 49%, #000 49%, #000 51%, transparent 51%);">
+            </div>
+            <div class="box"
+                style="background: linear-gradient(45deg, transparent 49%, #000 49%, #000 51%, transparent 51%);"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+
+    <span style="writing-mode: vertical-lr;font-size: 40px;  font-family: 標楷體;">棋盤裡，車無輪，馬無韁，叫聲將軍提防提防</span>
+
+</body>
+
+</html>
